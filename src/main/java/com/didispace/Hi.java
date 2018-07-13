@@ -1,14 +1,14 @@
-package com.didispace.web;
+package com.didispace;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class Hi {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/hi")
     public String index() {
-        return "Hello World!!!!!";
+        return "hi";
     }
 
 }
